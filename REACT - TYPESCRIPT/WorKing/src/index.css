@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+}
+
+button {
+  cursor: pointer;
+}
+
+.description {
+  display: flex;
+  height: 60%;
+  width: 100% !important;
+  /* margin: 0 auto; */
+  border-radius: 8px;
+  background-color: transparent;
+  flex-direction: column;
+}

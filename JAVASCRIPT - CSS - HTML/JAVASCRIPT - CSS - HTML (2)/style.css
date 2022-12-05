@@ -1,0 +1,136 @@
+p,
+button,
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+
+    max-width: 1200px;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+
+}
+
+.menu-flex {
+    display: flex;
+    align-items: center;
+}
+
+.menu-column {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.menu-column.menu-second-column {
+    justify-content: flex-end;
+}
+
+.menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    /* Vamos utilizar essa propriedade do flex para colocar um espaçamento entre os elementos*/
+}
+
+.menu-nav ul li a {
+    text-decoration: none;
+    color: #585e65;
+}
+
+.menu-link-button {
+    text-decoration: none;
+    height: 48px;
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+
+}
+
+
+.conteinercard {
+    background-color: rgb(231, 229, 229);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.card {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 24%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    justify-content: center;
+    margin-bottom: 16px;
+    margin-top: 34px;
+    row-gap: 20px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+
+}
+
+.figurecard {
+    display: flex;
+    justify-content: center;
+}
+
+.imgcard {
+    width: 100%;
+    height: 237px;
+
+}
+
+.descricao {
+    max-width: 100%;
+    height: 80px;
+    margin-left: 25px;
+    font-weight: 600px;
+
+}
+
+.preco {
+    max-width: 100%;
+    height: 28px;
+    margin-left: 25px;
+}
+
+.botao {
+    max-width: 80%;
+    height: 48px;
+    background-color: #4C6EF5;
+    color: white;
+    font-weight: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.botao:hover {
+    border: 1px solid white;
+}

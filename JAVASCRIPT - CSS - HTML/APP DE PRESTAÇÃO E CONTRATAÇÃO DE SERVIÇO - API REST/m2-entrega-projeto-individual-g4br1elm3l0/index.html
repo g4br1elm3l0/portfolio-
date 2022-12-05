@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <script src="src/scripts/models/cadastro.js" type="module" defer></script>
+    <script src="src/scripts/models/empresas.js" type="module" defer></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <div id="cadastroDiv">
+        <h2>Cadastro</h2>
+
+        <form class="form--cadastro">
+            <div id="errorMsgList" class="credentialErrors">
+            </div>
+
+            <!-- <label for="cadastroUsername">Username</label> -->
+            <input placeholder="Digite seu nome de usuario" type="text" id="cadastroUsername" name="cadastroUsername">
+
+            <!-- <label for="cadastroEmail">Email</label> -->
+            <input type="email" placeholder="Digite seu email" id="cadastroEmail" name="cadastroEmail">
+
+            <!-- <label for="cadastroPassword">Password</label> -->
+            <input type="password" placeholder="Digite aqui sua senha" id="cadastroPassword" name="cadastroPassword">
+
+            <!-- <label for="cadastroProfessionalLevel">Nível Profissional</label> -->
+            <input placeholder="Digite aqui seu nivel profissional" type="text" id="cadastroProfessionalLevel"
+                name="cadastroProfessionalLevel">
+
+            <button id="cadastroButton" type="button">Cadastrar</button>
+
+            <p> Já é cadastrado? <a href="src/pages/login.html">Fazer login</a>
+        </form>
+    </div>
+
+
+
+    <div id="listaEmpresasDiv">
+        <h2>Empresas</h2>
+
+        <label for="filterSector">Filtrar por Setor</label>
+        <input type="text" placeholder="digite aqui o setor que você procura" id="filterSector" name="filterSector">
+        <button id="filterButton" type="button">Filtrar</button>
+        <button id="clearFilterButton" type="button">Limpar filtro</button><br><br>
+        <p id="appliedFilter"></p>
+
+        <div id="listaEmpresas">
+        </div>
+    </div>
+</body>
+
+</html>

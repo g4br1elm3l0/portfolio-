@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+
+body {
+    background-color: white;
+    color: #868383;
+    display: flex;
+    height: 1200px;
+    align-content: center;
+    justify-content: center;
+
+}
+
+button {
+    background-color: #0A99FE 10%;
+    /* opacity: 10%; */
+    width: 150px;
+    height: 40px;
+    color: #0A99FE;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+
+}
+
+button:hover {
+    color: white;
+    background-color: #0A99FE;
+    opacity: 100%;
+}
+
+h3 {
+    color: #1B1B1B;
+    font-size: 20px;
+}
+
+
+
+
+.conteiner {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nave {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.nave-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+}
+
+.nave-ul-li {
+    background-color: #0A99FE 10%;
+
+    color: blue;
+}
+
+.vitrine {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    row-gap: 49px;
+
+}
+
+.vitrine-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+.card-vitrine-section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    background-color: #F8F8F8;
+    fill: solid;
+    width: 207px;
+    height: 275px;
+    gap: 27px;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.card-vitrine-section:hover {
+    cursor: pointer;
+    border: 2px solid #0A99FE;
+}
+
+figure {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    border-bottom: 1px solid black;
+
+}
+
+.img-card {
+    width: 100%;
+    height: 100%;
+}
+
+
+.nomeProduto {
+    font-size: 20px;
+
+}
+
+.valorProduto {
+    font-size: 16px;
+}

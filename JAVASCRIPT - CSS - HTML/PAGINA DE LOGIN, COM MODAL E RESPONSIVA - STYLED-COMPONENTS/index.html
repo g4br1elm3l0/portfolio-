@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script/modal.js" defer></script>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/modal.css">
+
+    <title>Pagina de Login</title>
+</head>
+
+<body>
+    <main class="conteiner">
+
+        <section class="section--descricao">
+            <figure>
+                <img class="logo--img" src="img/logo.svg" alt="logo kenzie">
+            </figure>
+            <h2 class="titulo--descricao">Quer se tornar um programador?</h2>
+            <a class="link--descricao" href="https://kenzie.com.br/" target="_blank">Saiba mais clicando aqui</a>
+        </section>
+
+
+        <section class="section--login">
+            <h2 class="titulo--login">Já é cadastrado? Faça aqui seu login</h2>
+            <form class="form--login" action="">
+                <label for="email">Email</label>
+                <input id="input--email" type="email" name="email" placeholder="Digite aqui seu E-mail">
+                <label for="senha">Senha</label>
+                <input id="input--senha" type="password" name="senha" placeholder="Digite aqui sua senha">
+            </form>
+            <span class="span--cadastro">Ainda não é cadastrado? <p class="link--cadastro">cadastre-se
+                    aqui</p></span>
+
+        </section>
+
+
+
+
+
+
+
+    </main>
+    <section class="modal hidden">
+        <form class="modal__form">
+            <span id="closeBtn" class="modal__form__span">X</span>
+            <h2>Cadastrar</h2>
+            <label for="email">Email:</label>
+            <input id="mail" type="email" id="name" name="email" placeholder="Email para cadastro" />
+            <label for="senha">Senha: </label>
+            <input type="password" type="password" placeholder="Senha para cadastro">
+            <button id="cadastrarBtn" type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+</body>
+
+</html>

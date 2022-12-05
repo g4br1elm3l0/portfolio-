@@ -1,0 +1,35 @@
+header {
+    padding: 20px;
+    background-color: var(--gray0);
+    justify-content: center;
+
+}
+
+
+
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.buttonsHeader {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+header>nav>ul>li>a {
+    color: var(--gray4);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#logoutButton {
+    width: 80px;
+}

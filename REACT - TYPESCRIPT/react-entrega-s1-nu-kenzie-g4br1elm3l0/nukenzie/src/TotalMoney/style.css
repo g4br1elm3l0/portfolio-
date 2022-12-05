@@ -1,0 +1,10 @@
+.spanValor {
+    background-color: #f4f4f4;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+}

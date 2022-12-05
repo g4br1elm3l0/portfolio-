@@ -1,0 +1,244 @@
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+
+}
+
+header figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5163D3;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+
+/* span {} */
+
+.section--principal {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    color: #5163D3;
+    justify-content: center;
+    font-size: 1rem;
+
+}
+
+.div--principal {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 15px;
+}
+
+.ancora--principal {
+    font-size: 30px;
+    color: #5163D3;
+}
+
+.img--principal {
+    width: 100%;
+}
+
+
+.ul--article {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    /* min-width: 320px; */
+}
+
+
+
+.li--article {
+    width: 100%;
+    height: 137px;
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.img--article {
+    display: none;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    width: 100%;
+    height: 137px;
+}
+
+.div--article {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 0.2rem;
+}
+
+.categoria {
+    color: blue;
+    fill: solid #5163D3;
+    background-color: #D7E4FB;
+    fill: #FFFFFF;
+    width: 25%;
+    height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font: bold;
+    font-size: 0.8rem;
+
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: -0.1rem;
+
+}
+
+.cite--article {
+    font-size: 0.6rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+
+@media(min-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main--conteiner {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section--principal {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 3rem;
+        background: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        width: 60%;
+        align-items: center;
+    }
+
+    .section--principal figure {
+
+        align-items: center;
+        text-align: center;
+        width: 50%;
+    }
+
+    .img--principal {
+        width: 100%;
+    }
+
+    .div--principal {
+        width: 50%;
+    }
+
+    .section--articles {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .ul--article {
+        width: 95%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 2rem;
+
+
+    }
+
+    .li--article {
+        width: 40%;
+        height: 120px;
+
+    }
+
+    .articles {
+        display: flex;
+        flex-direction: row;
+        font-size: 0.8rem;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .articles figure {
+        height: 98px;
+        width: 147px;
+        display: flex;
+        text-align: left;
+        font-size: 0.5rem;
+    }
+
+    .img--article {
+        display: initial;
+        width: 147px;
+        height: 120px;
+        ;
+    }
+
+    .div--article {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 0.5rem;
+    }
+
+    .categoria {
+        align-items: center;
+        padding-top: 3px;
+    }
+
+    .cite--article {
+        margin-bottom: 2px;
+    }
+}
